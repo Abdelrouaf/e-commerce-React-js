@@ -1,0 +1,46 @@
+@import '../Fonts/Fonts.module.scss';
+
+// Primary Colors
+$whiteColor: #FFFFFF;
+$blackColor: #000000a4;
+$darkBlackColor: #363738;
+// Colors for text
+$textOneColor: #fafafa;
+$textTwoColor: #7d8184;
+$buttonBlackColor: #000000;
+// Secondary Colors
+$offWhiteColor: #f5f5f5;
+$yellowColor: #fefaf1;
+$redColor: #db4444;
+$greenColor: #00ff66;
+$hoverButtonRedColor: #e07575;
+$hoverButtonBlueColor: #a0bce0;
+
+$boxShadow: 11px 10px 38px 0px rgba(0, 0, 0, 0.1);
+$shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+
+// Inter Fonts 
+$interBlackFontA: interBlack18;
+$interBoldFontA: interBold18;
+$interExtraBoldFontA: interExtraBold18;
+$interMediumFontA: interMedium18;
+$interRegularFontA: interRegular18;
+$interLightFontA: interLight18;
+$interBlackFontB: interBlack24;
+$interBoldFontB: interBold24;
+$interExtraBoldFontB: interExtraBold24;
+$interMediumFontB: interMedium24;
+$interRegularFontB: interRegular24;
+$interBlackFontC: interBlack28;
+$interBoldFontC: interBold28;
+$interExtraBoldFontC: interExtraBold28;
+$interMediumFontC: interMedium28;
+$interRegularFontC: interRegular28;
+
+// Poppins Fonts
+$poppinsBlackFont: poppinsBlack;
+$poppinsBoldFont: poppinsBold;
+$poppinsExtraBoldFont: poppinsExtraBold;
+$poppinsSemiBoldFont: poppinsSemiBold;
+$poppinsMediumFont: poppinsMedium;
+$poppinsRegularFont: poppinsRegular;

@@ -1,0 +1,39 @@
+@import '../Variables/Variables.module.scss';
+
+.input {
+    display: flex;
+    align-items: center;
+    background-color: $offWhiteColor;
+    color: $buttonBlackColor;
+    padding: 3px 8px;
+
+    input {
+        border: none !important;
+        box-shadow: none !important;
+        background-color: transparent;
+        color: $buttonBlackColor;
+
+        &:focus {
+            border: none !important;
+            box-shadow: none !important;
+            outline: none !important;
+            background-color: transparent !important;
+        
+            &::placeholder {
+                color: transparent;
+            }
+        }
+    
+        &::placeholder {
+            color: $blackColor;
+            font-family: $poppinsRegularFont;
+            font-size: 14px;
+            transition: all .5s ease-in-out;
+            -webkit-transition: all .5s ease-in-out;
+            -moz-transition: all .5s ease-in-out;
+            -ms-transition: all .5s ease-in-out;
+            -o-transition: all .5s ease-in-out;
+            // opacity: .4;
+        }
+    }
+}

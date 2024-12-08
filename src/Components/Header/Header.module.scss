@@ -1,0 +1,123 @@
+@import '../Style/Layout/Layout.module.scss';
+
+.upperHeader {
+    background-color: $buttonBlackColor;
+    color: $whiteColor;
+    padding: 5px;
+
+    .upperHeaderWidth {
+        width: 70%;
+    
+        p {
+            text-transform: capitalize;
+            font-size: 12px;
+            color: $whiteColor;
+            font-family: $interRegularFontC;
+        
+            a {
+                margin-inline: 5px;
+                color: $whiteColor;
+                font-family: $interBoldFontC;
+                text-decoration: underline;
+            }
+        }
+    
+        .select {
+            background-color: $buttonBlackColor;
+            color: $whiteColor;
+            font-family: $interMediumFontC;
+            border: none;
+            padding: 10px 30px;
+            width: fit-content;
+            font-size: 13px;
+        }
+    }
+}
+
+.lowerHeader {
+    box-shadow: $boxShadow;
+
+    .navbar {
+
+        .navbarCollapse {
+            display: flex;
+            justify-content: space-between;
+        
+            .navItem {
+                padding: 8px;
+            
+                .link {
+                    padding: 0 !important;
+                    font-family: $poppinsMediumFont;
+                
+                    &.activeLink {
+                        position: relative;
+                    
+                        &::before {
+                            content: "";
+                            position: absolute;
+                            left: 0;
+                            bottom: -5px;
+                            width: 100%;
+                            height: 1px;
+                            background-color: $blackColor;
+                        }
+                    }
+                }
+            }
+        }
+    
+        .right {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        
+            .profileUser {
+                position: relative;
+            
+                ul {
+                    position: absolute;
+                    right: 0;
+                    bottom: -210px;
+                    width: 225px;
+                    padding: 20px;
+                    margin: 0;
+                    background-color: rgb(0, 0, 0);
+                    box-shadow: $shadow;
+                    backdrop-filter: blur(10px);
+                    border: none;
+                    border-radius: 7px;
+                    -webkit-border-radius: 7px;
+                    -moz-border-radius: 7px;
+                    -ms-border-radius: 7px;
+                    -o-border-radius: 7px;
+                
+                    li {
+                    
+                        a {
+                            color: $whiteColor;
+                            font-family: $poppinsRegularFont;
+                            font-size: 14px;
+                            transition: all .5s ease-in-out;
+                            -webkit-transition: all .5s ease-in-out;
+                            -moz-transition: all .5s ease-in-out;
+                            -ms-transition: all .5s ease-in-out;
+                            -o-transition: all .5s ease-in-out;
+
+                            &:hover {
+                                color: $redColor;
+                            }
+                        
+                            img {
+                                margin-right: 7px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    
+}
